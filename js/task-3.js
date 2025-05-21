@@ -6,12 +6,6 @@ const main = () => {
     const trimmedValue = nameInput.value.trim();
 
     nameOutput.textContent = trimmedValue ? trimmedValue : "Anonymous";
-
-    if (trimmedValue === "") {
-      nameOutput.textContent = "Anonymous";
-    } else {
-      nameOutput.textContent = trimmedValue;
-    }
   });
 };
 
